@@ -43,8 +43,7 @@ public class Parse {
 	}
 
 	static public String getParseAPIUrl(String context) {
-		return ParseConstants.API_ENDPOINT + "/" + ParseConstants.API_VERSION
-				+ "/" + context;
+		return ParseConstants.API_ENDPOINT + "/" + context;
 	}
 
 	public static synchronized String encodeDate(Date date) {
